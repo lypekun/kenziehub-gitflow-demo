@@ -64,7 +64,7 @@ function Dashboard() {
           </ConteinerHeader>
           <ConteinerItens>
             <CardName />
-           {/*  <Technology /> */}
+           {/* INSERIR SPANS */}
           </ConteinerItens>
         </>
       )}
