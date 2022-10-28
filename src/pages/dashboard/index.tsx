@@ -75,7 +75,9 @@ function Dashboard() {
             </p>
 
             {/* INSERIR DIV OU TAGS PRA GERAR CONFLITO */}
-
+            <div>
+              <h1>vou fazer um conflito pro lype resolver</h1>
+            </div>
           </ConteinerItens>
         </>
       )}
