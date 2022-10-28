@@ -35,38 +35,7 @@ function Login() {
         exit={{x: window.innerWidth, transition: {duration: 1}}}
       >
         <img src={logo} alt="logo da kenziehub"/>
-        <div className="conteiner-login">
-            <h3>Login</h3>
-            <form onSubmit={handleSubmit(singIn)}>
-                <label htmlFor="email">Email</label>
-                <input type="text" {...register("email")} placeholder="Email" id="email"/>
-                <span><>{errors.email?.message}</></span>
-                <label htmlFor="password">Senha</label>
-                <div className="conteiner-password">
-                  {
-                    visible 
-                    ? 
-                      <>  
-                        <input type="text" {...register("password")} placeholder="Senha" id="password"/> 
-                        <IoMdEye className="password-icon" onClick={() => setVisible(false)}/>
-                      </>
-                    : 
-                    <>
-                      <input type="password" {...register("password")} placeholder="Senha" id="password"/>
-                      <IoIosEyeOff className="password-icon" onClick={() => setVisible(true)}/> 
-                    </>
-                  }
-                  
-                </div>
-                <span><>{errors.password?.message}</></span>
-
-                <button type="submit">Entrar</button>
-            </form>
-            <div>
-                <span>Ainda não possui uma conta?</span>
-                <Link to={"/register"} className="register">Registrar-se</Link>
-            </div>
-      </div>
+        {/* INSERIR CÓDIGO DE LOGUIN AQUI */}
       </motion.div>
     </Conteiner>
   );
